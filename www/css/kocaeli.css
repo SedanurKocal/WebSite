@@ -1,0 +1,54 @@
+.baslik{
+    margin-top:3rem;
+    text-align: center;
+    height: 5rem;
+    line-height: 5rem;
+    font-size: 2.5em;
+    border: 1px solid rgb(1, 90, 90);
+    border-radius: 20px;
+    background-color: rgb(1, 90, 90);
+    color: white;
+    box-shadow: 8px 8px 8px gainsboro;
+    opacity: 0.9;
+}
+.baslik a{
+    text-decoration: none;
+    color: white;
+}
+.baslik a:hover{
+    text-decoration: none;
+    color: white;
+}
+.baslik:hover{
+    opacity: 1;
+}
+
+.ozet{
+    border: 6px solid rgb(176, 168, 185);
+    margin: 2rem 0;
+    text-align: left;
+    padding: 2em;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px gainsboro;
+	background-color:#B0A8B9;
+}
+#neyapmali{
+    line-height: 4rem;
+}
+.slider{
+    text-align: center;
+	padding-bottom:4rem;
+}
+.slider img{
+    width: 80%;
+    height: 25rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px gray;
+    opacity: 0.9;
+}
+.slider img:hover{
+    opacity: 1;
+}
+.icerik{
+    text-align: justify;
+}
