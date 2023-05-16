@@ -16,6 +16,8 @@ function loginDenetle(){
         return false;
     }
     else{
+		alert ("Hoşgeldiniz g221210352");
         return true;
+		
     }
 }
