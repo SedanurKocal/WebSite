@@ -7,7 +7,7 @@ function loginDenetle(){
 
     if(KullaniciAdi=="" || Parola==""){
         Hata.style.visibility="visible";
-        Hata.innerHTML="Kullanıcı adı ya da Parola boş bırakılamaz!";
+        Hata.innerHTML="Kullanıcı adı ya da Parola boş!";
         return false;
     }
     else if((KullaniciAdi!="" && KullaniciAdi!=kulAd) || (Parola!="" && Parola!=sifre)){
