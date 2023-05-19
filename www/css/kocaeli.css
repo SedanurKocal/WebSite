@@ -1,39 +1,18 @@
-.baslik{
-    margin-top:3rem;
-    text-align: center;
-    height: 5rem;
-    line-height: 5rem;
-    font-size: 2.5em;
-    border: 1px solid rgb(176, 168, 185);
-    border-radius: 5px;
-    background-color: rgb(176, 168, 185);
-    color: white;
-    box-shadow: 8px 8px 8px gainsboro;
-    opacity: 0.9;
+.Kocaelibaslik{margin-top:3rem; text-align: center; height: 5rem; line-height: 5rem; font-size: 2.5em; color: white; border: 1px solid rgb(176, 168, 185); border-radius: 5px; background-color: rgb(176, 168, 185); box-shadow: 8px 8px 8px gainsboro;
 }
-.baslik a{
+.Kocaelibaslik a{
     text-decoration: none;
     color: white;
 }
-.baslik a:hover{
-    text-decoration: none;
-    color: white;
+.Kocaelibaslik a:hover{ text-decoration: none; color: white;
 }
-.baslik:hover{
-    opacity: 1;
+.Kocaelibaslik:hover{opacity: 1;
 }
-
-.ozet{
-    border: 6px solid rgb(176, 168, 185);
-    margin: 2rem 0;
-    text-align: left;
-    padding: 2em;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px gainsboro;
-	background-color:#B0A8B9;
+.Kocaelibasliklar{ text-align: left; height: 2rem; line-height: 1rem; font-size: 2.5em; border: 1px solid rgb(176, 168, 185); border-radius: 2px; background-color: rgb(176, 168, 185); color: white; box-shadow: 8px 8px 8px gainsboro;
 }
-#neyapmali{
-    line-height: 4rem;
+.Kocaeliyazilar{margin: auto; width: 50%; border: 3px 3px 3px 3px 	rgb(220,220,220); padding: 8px; box-shadow: 4px 4px 4px 	rgb(220,220,220);
+}
+.kocaelispor{ border: 6px solid rgb(176, 168, 185); margin: 2rem 0; text-align: left; padding: 2em; border-radius: 10px; box-shadow: 2px 2px 2px gainsboro; background-color:#B0A8B9;
 }
 .slider{
     text-align: center;
@@ -49,6 +28,5 @@
 .slider img:hover{
     opacity: 1;
 }
-.icerik{
-    text-align: justify;
+.icerik{text-align: justify;
 }

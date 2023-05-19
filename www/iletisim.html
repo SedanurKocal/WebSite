@@ -1,14 +1,12 @@
 <!doctype html>
 <html lang="tr-TR">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/iletisim.css">
     
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
     <title>İletişim</title>
@@ -60,19 +58,19 @@
             <div class="col-md-2"></div>
             <div class="col-md-8">
                 <form action="php/iletisim.php" method="POST" name="form" onsubmit="return formDenetle()">
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2" id="labelAd">Ad</div>
                         <div class="col-md-8"><input type="text" name="ad" id="ad" class="text" required></div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2" id="labelSoyad">Soyad</div>
                         <div class="col-md-8"><input type="text" name="soyad" id="soyad" class="text" required></div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2" id="labelEmail">E-mail</div>
                         <div class="col-md-8"><input type="email" name="email" id="email" class="text" required></div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2">Cinsiyet</div>
                         <div class="col-md-8">
                             <input type="radio" name="cinsiyet" value="Bay" checked >Erkek
@@ -80,7 +78,7 @@
                         </div>
                     </div>
 					  
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2">Konu</div>
                         <div class="col-md-8">
                             <select name="konu" class="text">
@@ -90,7 +88,7 @@
                             </select>
                         </div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2">Programlama Dili</div>
                         <div class="col-md-8">
                             <input type="checkbox" name="dil[]" value="Cpp" checked>C++
@@ -99,7 +97,7 @@
                             <input type="checkbox" name="dil[]" value="Javascript"> Javascript
                         </div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-4 label2" id="labelMesaj">Mesajınızı Yazınız</div>
                         <div class="col-md-8"><textarea name="mesaj" id="mesaj" class="text" cols="60" rows="4" placeholder="Mesajınızı Girin..." required></textarea></div>
                     </div>
@@ -200,11 +198,11 @@
             </datalist>
             </div>
           </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-6 button"><button type="submit" name="gonder">Gönder</button></div>
                         <div class="col-md-6 button"><button type="reset">Temizle</button></div>
                     </div>
-                    <div class="row row_text">
+                    <div class="row inputsbosluk">
                         <div class="col-md-2"></div>
                         <div class="col-md-8 hata" id="hata">Lütfen Kırmızı Alanları Doldurunuz</div>
                         <div class="col-md-2"></div>
@@ -216,10 +214,7 @@
         </div>
     </div>   
 	
-    <a href="#top"><div class="yukari"></div></a>
-    <div class="container-fluid footer">
-        <p><small>© 2021 Tüm Hakları Saklıdır.</small></p>
-    </div>
+    
 	
    	 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>

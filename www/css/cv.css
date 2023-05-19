@@ -1,72 +1,17 @@
-.govde{
-    background-color: rgb(176, 168, 185);
-    margin: 2rem 0;
-    padding: 1rem 0;
-    color: white;
-    border-left: 2px solid rgb(1, 1, 1);
-    border-bottom: 2px solid rgb(1, 1, 1);
-    border-radius: 10px;
+.mail{
+    border: 1px solid rgb(1, 1, 1); margin: 0rem 6; text-align: center; border-radius: 5px; margin-bottom: 2rem; border-bottom: 1px solid;
 }
-.yazi{
-    padding-top: 1.5rem;
-    height: 10em;
-    border-bottom: 1px solid;
-    border-right: 1px solid;
-    border-bottom-right-radius: 10px;
-    box-shadow: 1px 1px 1px gray;
-    margin: 0;
+.CVismim{ margin-top:5rem; text-align: center; height: 5rem; line-height: 5rem; font-size: 12em; border: 1px solid rgb(176, 168, 185); border-radius: 5px; background-color: rgb(176, 168, 185); color: white; box-shadow: 8px 8px 8px gainsboro;
 }
-.yazi p{
-    text-align: justify;
-}
-.yazi a{
-    color: black;
-}
-.yazi a:hover{
-    text-decoration: none;
-}
-.ben{
-    text-align: center;
-    padding-top: 2rem;
-}
-.ben img{
-    width: 10rem;
-    height: 10rem;
-    border-radius: 50%;
-}
-.baslik-yazi{
-    font-weight: bold;
-    font-size: 2em;
-    text-align: left;
-    line-height: 11rem;
-}
-.baslik-yazi p{
-    margin-left: 3rem;
-}
-.bilgiler-baslik{
-    margin-top: 5rem;
-    border-bottom: 1px solid;
-    margin-bottom: 2rem;
+.CVbasliklar{ margin-top:3rem; text-align: center; height: 2rem; line-height: 5rem; font-size: 2.5em; border: 1px solid rgb(176, 168, 185); border-radius: 5px; background-color: rgb(128, 128, 128); color: white; box-shadow: 8px 8px 8px gainsboro;
 }
 
 @media screen and (max-width: 760px){
-    .govde{
-        margin: 0;
-        border: none;
-        border-radius: 0%;
+    .mail{
+        margin: 0; border-radius: 0%; text-align: center; line-height: 5rem;
     }
-    .baslik-yazi{
-        text-align: center;
-        line-height: 5rem;
+    .CVismim{text-decoration: underline;
     }
-    .row-baslik{
-        text-decoration: underline;
-    }
-    .bilgiler-baslik{
-        text-align: center;
-        margin-top: 1rem;
-    }
-    .baslik-yazi p{
-        margin-left: 0;
+    .CVbasliklar{text-align: center; margin-top: 1rem;
     }
 }
