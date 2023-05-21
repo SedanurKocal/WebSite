@@ -1,18 +1,18 @@
-function loginDenetle(){
-    var kulAd="g221210352@sakarya.edu.tr";
+function girisKontrol(){
+    var Kmail="g221210352@sakarya.edu.tr";
     var sifre="g221210352";
-    var KullaniciAdi=document.getElementById("kullaniciAdi").value;
+    var mailiniz=document.getElementById("mailiniz").value;
     var Parola=document.getElementById("parola").value;
-    var Hata=document.getElementById("hata");
+    var Uyari=document.getElementById("uyari");
 
-    if(KullaniciAdi=="" || Parola==""){
-        Hata.style.visibility="visible";
-        Hata.innerHTML="Kullanıcı adı ya da Parola boş!";
+    if(mailiniz=="" || Parola==""){
+        Uyari.style.visibility="visible";
+        Uyari.innerHTML="Kullanıcı adı ya da Parola boş!";
         return false;
     }
-    else if((KullaniciAdi!="" && KullaniciAdi!=kulAd) || (Parola!="" && Parola!=sifre)){
-        Hata.style.visibility="visible";
-        Hata.innerHTML="Kullanıcı adı ya da Parola yanlış!";
+    else if((mailiniz!="" && mailiniz!=Kmail) || (Parola!="" && Parola!=sifre)){
+        Uyari.style.visibility="visible";
+        Uyari.innerHTML="Kullanıcı adı ya da Parola yanlış!";
         return false;
     }
     else{

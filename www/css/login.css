@@ -1,36 +1,15 @@
-.govde{
-    min-height: 30rem;
+.govde{ min-height: 30rem;
 }
-
-.row_resim{
-    text-align: center;
-    margin-top: 5rem;
-    margin-bottom: 1rem;
-}
-.row_resim img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    opacity: 0.8;
-}
-.text{
-    width: 100%;
-    border: 5px solid gray;
-    padding-left: 1rem;
-    opacity: 0.8;
-    border-radius: 10px;
-}
-.text:hover{
-    opacity: 1;
-    box-shadow: 1px 1px 1px gray;
-    transition: all 0.1s linear;
-}
-.text_div{
-    text-align: center;
-}
-.row_text{
+.textbutton{
     margin-top: 1rem;
 }
 .button{background-color: rgb(176, 168, 185); width: 70%; border: 10px solid rgb(176, 168, 185); border-radius: 0px;  color: white;
 }
+.button2 {background-color: white; color: black;  border: rgb(176, 168, 185);
+}
 
+.button2:hover { background-color: rgb(176, 168, 185); color: white;
+}
+
+.butonunarkasi{background-color: rgb(176, 168, 185); width: 90%; border: 20px solid rgb(176, 168, 185);   color: white;
+}

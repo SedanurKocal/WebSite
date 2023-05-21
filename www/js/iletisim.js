@@ -1,42 +1,36 @@
-function formDenetle(){
-    var Ad=document.getElementById('ad').value;
-    var labelAd=document.getElementById('labelAd');
-    var Soyad=document.getElementById('soyad').value;
-    var labelSoyad=document.getElementById('labelSoyad');
-    var Mesaj=document.getElementById('mesaj').value;
-    var labelMesaj=document.getElementById('labelMesaj');
-    var Hata=document.getElementById('hata');
-    if(!(isNaN(Ad))){
-        labelAd.style.color="rgb(150, 55, 20)";
-        Hata.style.visibility="visible";
-        return false;
-    }
-    else{
-        labelAd.style.color="black";
-        Hata.style.visibility="hidden";
-    }
-    if(!(isNaN(Soyad))){
-        labelSoyad.style.color="rgb(150, 55, 20)";
-        Hata.style.visibility="visible";
-        return false;
-    }
-    else{
-        labelSoyad.style.color="black";
-        Hata.style.visibility="hidden";
-    }
-    if(Mesaj==""){
-        labelMesaj.style.color="rgb(150, 55, 20)";
-        Hata.style.visibility="visible";
-        return false;
-    }
-    else{
-        labelMesaj.style.color="black";
-        Hata.style.visibility="hidden";
-    }
-    if(isNaN(ad) && isNaN(Soyad) && Mesaj != ""){
+function iletisimKontrol(){
+    var adiniz=document.getElementById("adiniz").value;
+    var soyadiniz=document.getElementById("soyadiniz").value;
+    var mailiniz=document.getElementById("mailiniz").value;
+    var mesajiniz=document.getElementById("mesajiniz").value;
+    var uyari=document.getElementById("uyari");
+
+    if(adiniz==""){
+        uyari.style.visibility="visible";
+        uyari.innerHTML="Ad Girilmedi!";
+        return false;}
+		
+	 else if(soyadiniz==""){
+        uyari.style.visibility="visible";
+        uyari.innerHTML="Soyad Girilmedi!";
+	 return false;}
+	 
+	 	
+	 else if(mailiniz==""){
+        uyari.style.visibility="visible";
+        uyari.innerHTML="Mail Girilmedi!";
+	 return false;}
+	 
+	 	
+	 else if(mesajiniz==""){
+        uyari.style.visibility="visible";
+        uyari.innerHTML="Mesaj Girilmedi!";
+	 return false;}
+	 
+	else{
+		alert ("Basarili");
         return true;
+		
     }
-    else{
-        return false;
-    }
+    
 }
